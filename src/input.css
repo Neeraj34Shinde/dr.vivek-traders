@@ -209,3 +209,21 @@ body{
         transform: rotate(360deg);
     }
     } 
+
+    .custom-shadow{
+      box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    }
+
+    .help-cards{
+      transition:all .3s ease-in-out;
+      cursor:pointer
+    }
+    
+    .help-cards:hover{
+      background-color:#fff;
+      color:#002e33
+    }
+    
+    .help-cards:hover svg path{
+      stroke:#002e33
+    }
